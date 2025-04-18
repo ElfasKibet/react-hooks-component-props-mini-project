@@ -1,31 +1,29 @@
-import logo from "../assets/logo";
-
-const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+const blog = {
+  name: "My Blog",
+  image: "https://via.placeholder.com/215",
+  about: "This is a blog about React components.",
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "Using Props in React",
+      date: "March 10, 2025",
+      preview: "Props let you customize your components...",
+      minutes: 10,
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "Understanding JSX",
+      date: "March 15, 2025",
+      preview: "JSX is a syntax extension for JavaScript...",
+      minutes: 45,
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
+      title: "React Component Patterns",
+      preview: "Different ways to write and organize React components...",
+      minutes: 5,
     },
   ],
 };
 
-export default blogData;
+export default blog;
